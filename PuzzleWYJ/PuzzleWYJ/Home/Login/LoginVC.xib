@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginVC">
+            <connections>
+                <outlet property="loginButton" destination="fe6-Dm-eGz" id="8r6-c9-Lbi"/>
+                <outlet property="nameTextField" destination="goT-dr-N4O" id="4Kj-B5-hzH"/>
+                <outlet property="passwordTextField" destination="yOc-GK-GgQ" id="heT-f1-Tmg"/>
+                <outlet property="signUpButton" destination="t6p-Ds-6za" id="QOd-rj-qeo"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="用户名" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="goT-dr-N4O">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="260" id="8iD-ag-7DO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="密码" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yOc-GK-GgQ">
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fe6-Dm-eGz">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="XeD-r4-n12"/>
+                        <constraint firstAttribute="width" constant="100" id="jgf-Ej-CDu"/>
+                    </constraints>
+                    <state key="normal" title="登  录"/>
+                    <connections>
+                        <action selector="loginAction:" destination="-1" eventType="touchUpInside" id="Ohx-ra-bAW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t6p-Ds-6za">
+                    <state key="normal" title="注  册"/>
+                    <connections>
+                        <action selector="signUp:" destination="-1" eventType="touchUpInside" id="cX9-5G-plM"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.90814122180000001" green="1" blue="0.89068656160000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="goT-dr-N4O" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="03v-38-h3h"/>
+                <constraint firstItem="t6p-Ds-6za" firstAttribute="width" secondItem="fe6-Dm-eGz" secondAttribute="width" id="62M-bB-TYg"/>
+                <constraint firstItem="yOc-GK-GgQ" firstAttribute="trailing" secondItem="goT-dr-N4O" secondAttribute="trailing" id="G4o-lO-SNH"/>
+                <constraint firstItem="t6p-Ds-6za" firstAttribute="centerX" secondItem="yOc-GK-GgQ" secondAttribute="centerX" constant="65" id="GuN-o7-b3Q"/>
+                <constraint firstItem="t6p-Ds-6za" firstAttribute="top" secondItem="fe6-Dm-eGz" secondAttribute="top" id="PM5-U4-mTL"/>
+                <constraint firstItem="yOc-GK-GgQ" firstAttribute="leading" secondItem="goT-dr-N4O" secondAttribute="leading" id="Rbo-ms-xEn"/>
+                <constraint firstItem="t6p-Ds-6za" firstAttribute="height" secondItem="fe6-Dm-eGz" secondAttribute="height" id="SdO-u9-YZ9"/>
+                <constraint firstItem="fe6-Dm-eGz" firstAttribute="top" secondItem="yOc-GK-GgQ" secondAttribute="bottom" constant="30" id="e1O-Kf-kMP"/>
+                <constraint firstItem="fe6-Dm-eGz" firstAttribute="centerX" secondItem="yOc-GK-GgQ" secondAttribute="centerX" constant="-65" id="ePo-WV-9rC"/>
+                <constraint firstItem="yOc-GK-GgQ" firstAttribute="top" secondItem="goT-dr-N4O" secondAttribute="bottom" constant="20" id="gbW-bG-Y9x"/>
+                <constraint firstItem="goT-dr-N4O" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="qmC-bI-J8y"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="34.5" y="142.5"/>
+        </view>
+    </objects>
+</document>

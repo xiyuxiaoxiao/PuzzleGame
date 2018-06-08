@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RootVC">
+            <connections>
+                <outlet property="changeArrayButton" destination="FeW-Yk-vXK" id="wNC-jl-CFH"/>
+                <outlet property="imageView" destination="NCK-1D-Xvu" id="VEw-oF-Q9X"/>
+                <outlet property="imageViewHeightLayout" destination="dfC-g9-UAW" id="ghY-Xu-e1C"/>
+                <outlet property="imageViewWidthLayout" destination="pSs-7o-RcM" id="5lK-SK-nNJ"/>
+                <outlet property="levelCountLabel" destination="cl7-lU-umL" id="M3t-Bt-cGm"/>
+                <outlet property="loginOutButton" destination="1kd-Vr-WKX" id="UlN-mg-6zJ"/>
+                <outlet property="originalImageView" destination="dtV-id-cmP" id="3ul-Xs-HL0"/>
+                <outlet property="resetLevelButton" destination="AML-m8-hPh" id="mCO-fY-gUJ"/>
+                <outlet property="startPlayButton" destination="gXO-hy-ZOl" id="exT-oC-jRw"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kd-Vr-WKX">
+                    <rect key="frame" x="277" y="41" width="80" height="21"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="jXr-sO-SPO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                    <state key="normal" title="退出登录">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="loginOut:" destination="-1" eventType="touchUpInside" id="aVo-EJ-WRs"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NCK-1D-Xvu">
+                    <rect key="frame" x="112" y="257.5" width="151" height="152"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="152" id="dfC-g9-UAW"/>
+                        <constraint firstAttribute="width" constant="151" id="pSs-7o-RcM"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="关卡" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cl7-lU-umL">
+                    <rect key="frame" x="37" y="41" width="39" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="abt-mX-fBB"/>
+                        <constraint firstAttribute="height" constant="21" id="eBL-KW-fJV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="19"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="abt-mX-fBB"/>
+                        </mask>
+                    </variation>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXO-hy-ZOl">
+                    <rect key="frame" x="87.5" y="439.5" width="200" height="40"/>
+                    <color key="backgroundColor" red="0.3723463159" green="0.70992060239999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="P4g-zf-SoU"/>
+                        <constraint firstAttribute="width" constant="200" id="rPN-nM-sLf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="开始">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="startPlayGame:" destination="-1" eventType="touchUpInside" id="KYc-7a-1hS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AML-m8-hPh">
+                    <rect key="frame" x="147.5" y="41" width="80" height="20"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="7k3-1N-eNJ"/>
+                        <constraint firstAttribute="width" constant="80" id="Mb5-ZW-aj2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                    <state key="normal" title="重置关卡">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="resetLevel:" destination="-1" eventType="touchUpInside" id="xEg-e9-q3L"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FeW-Yk-vXK">
+                    <rect key="frame" x="183" y="213" width="80" height="30"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="2nI-LW-K8y"/>
+                        <constraint firstAttribute="width" constant="80" id="eEX-n1-k8L"/>
+                    </constraints>
+                    <state key="normal" title="换一换"/>
+                    <connections>
+                        <action selector="changeArrange:" destination="-1" eventType="touchUpInside" id="Wx1-65-KMl"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dtV-id-cmP">
+                    <rect key="frame" x="162.5" y="199" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="61I-UI-1fE"/>
+                        <constraint firstAttribute="width" secondItem="dtV-id-cmP" secondAttribute="height" multiplier="1:1" id="eIc-4U-417"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gXO-hy-ZOl" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7fF-Ak-otb"/>
+                <constraint firstItem="cl7-lU-umL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="37" id="Fav-pw-XBs"/>
+                <constraint firstAttribute="trailing" secondItem="1kd-Vr-WKX" secondAttribute="trailing" constant="18" id="Hz1-kT-brF"/>
+                <constraint firstItem="1kd-Vr-WKX" firstAttribute="top" secondItem="cl7-lU-umL" secondAttribute="top" id="QH4-fY-vdl"/>
+                <constraint firstItem="AML-m8-hPh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="SE4-Td-eQV"/>
+                <constraint firstItem="NCK-1D-Xvu" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Yrc-ZZ-dbc"/>
+                <constraint firstItem="1kd-Vr-WKX" firstAttribute="bottom" secondItem="cl7-lU-umL" secondAttribute="bottom" id="YvI-zi-JJq"/>
+                <constraint firstItem="FeW-Yk-vXK" firstAttribute="trailing" secondItem="NCK-1D-Xvu" secondAttribute="trailing" id="ac0-xM-hVC"/>
+                <constraint firstItem="cl7-lU-umL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="41" id="akg-X3-eMO"/>
+                <constraint firstItem="NCK-1D-Xvu" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="diU-at-Hsx"/>
+                <constraint firstItem="NCK-1D-Xvu" firstAttribute="top" secondItem="FeW-Yk-vXK" secondAttribute="bottom" constant="14.5" id="i4l-1l-a5U"/>
+                <constraint firstItem="gXO-hy-ZOl" firstAttribute="top" secondItem="NCK-1D-Xvu" secondAttribute="bottom" constant="30" id="pCt-JB-uUV"/>
+                <constraint firstItem="NCK-1D-Xvu" firstAttribute="top" secondItem="dtV-id-cmP" secondAttribute="bottom" constant="8.5" id="pHe-jc-Xz8"/>
+                <constraint firstItem="AML-m8-hPh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="41" id="pLx-Va-EhU"/>
+                <constraint firstItem="dtV-id-cmP" firstAttribute="centerX" secondItem="NCK-1D-Xvu" secondAttribute="centerX" id="zx2-DT-NyE"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="69.5" y="89.5"/>
+        </view>
+    </objects>
+</document>

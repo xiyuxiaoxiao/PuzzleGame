@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlayViewController">
+            <connections>
+                <outlet property="backButton" destination="KIm-Kg-xjQ" id="fr2-Rc-B3l"/>
+                <outlet property="finishedButton" destination="i7G-Ux-iS1" id="CMy-92-aGj"/>
+                <outlet property="imageView" destination="eEN-UL-CE0" id="NZK-Z9-44R"/>
+                <outlet property="imageViewHeightLayout" destination="gKA-hG-9bW" id="RTt-yM-7LA"/>
+                <outlet property="imageViewWidthLayout" destination="Lse-yD-3hX" id="dl1-e4-1PY"/>
+                <outlet property="restartButton" destination="3Ed-zG-ilA" id="5NJ-dE-W4b"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eEN-UL-CE0">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="Lse-yD-3hX"/>
+                        <constraint firstAttribute="height" constant="128" id="gKA-hG-9bW"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i7G-Ux-iS1">
+                    <color key="backgroundColor" red="1" green="0.81319803199999996" blue="0.54504622000000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="OPl-Pg-b2O"/>
+                        <constraint firstAttribute="width" constant="200" id="vGu-y1-Eem"/>
+                    </constraints>
+                    <state key="normal" title="完成">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="finished:" destination="-1" eventType="touchUpInside" id="UeA-si-1Ba"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KIm-Kg-xjQ">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Uul-4o-yeB"/>
+                        <constraint firstAttribute="width" constant="65" id="gKA-xn-6kh"/>
+                    </constraints>
+                    <state key="normal" image="backArrow.png"/>
+                    <connections>
+                        <action selector="outAction:" destination="-1" eventType="touchUpInside" id="4Dy-m0-5kB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ed-zG-ilA">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="7yj-kK-QV5"/>
+                        <constraint firstAttribute="height" constant="40" id="Yv0-TA-NO9"/>
+                    </constraints>
+                    <state key="normal" image="restartOpen.png"/>
+                    <connections>
+                        <action selector="restartAction:" destination="-1" eventType="touchUpInside" id="qP3-OX-DJP"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="eEN-UL-CE0" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="03I-Hh-jZc"/>
+                <constraint firstItem="i7G-Ux-iS1" firstAttribute="centerX" secondItem="eEN-UL-CE0" secondAttribute="centerX" id="0P9-92-gcz"/>
+                <constraint firstItem="KIm-Kg-xjQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="0Zn-Oz-dm7"/>
+                <constraint firstItem="i7G-Ux-iS1" firstAttribute="top" secondItem="eEN-UL-CE0" secondAttribute="top" id="1WR-Ok-NlX"/>
+                <constraint firstItem="3Ed-zG-ilA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="J8c-Cz-XxU"/>
+                <constraint firstAttribute="trailing" secondItem="3Ed-zG-ilA" secondAttribute="trailing" constant="40" id="QRG-O8-vmn"/>
+                <constraint firstItem="KIm-Kg-xjQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Vc7-FQ-uXJ"/>
+                <constraint firstItem="eEN-UL-CE0" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="YDb-Vt-scN"/>
+                <constraint firstItem="i7G-Ux-iS1" firstAttribute="top" secondItem="eEN-UL-CE0" secondAttribute="bottom" constant="30" id="vo5-yV-6Mo"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="1WR-Ok-NlX"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="backArrow.png" width="42" height="42"/>
+        <image name="restartOpen.png" width="42" height="42"/>
+    </resources>
+</document>

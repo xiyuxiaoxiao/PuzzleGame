@@ -1,0 +1,869 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12CDDDE2623EE11E83AFABB0 /* libPods-PuzzleWYJ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 989FE97EA2B8EC07C06A4C39 /* libPods-PuzzleWYJ.a */; };
+		8329A05C1DAC84CF005F7F97 /* JigsawModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8329A0571DAC84CF005F7F97 /* JigsawModel.swift */; };
+		8329A05F1DAC84CF005F7F97 /* PuzzleManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8329A05A1DAC84CF005F7F97 /* PuzzleManage.swift */; };
+		8329A0631DAC896C005F7F97 /* BlurImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8329A0611DAC896C005F7F97 /* BlurImageView.swift */; };
+		8329A0641DAC896C005F7F97 /* BlurImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8329A0621DAC896C005F7F97 /* BlurImageView.xib */; };
+		8329A0681DAC8DA9005F7F97 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8329A0671DAC8DA9005F7F97 /* Photo.swift */; };
+		8329A06A1DAC8DD2005F7F97 /* JigsawPuzzlePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8329A0691DAC8DD2005F7F97 /* JigsawPuzzlePhoto.swift */; };
+		8329A06C1DAC948A005F7F97 /* JigsawPuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8329A06B1DAC948A005F7F97 /* JigsawPuzzleView.swift */; };
+		8329A06E1DAC9521005F7F97 /* JigsawPuzzleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8329A06D1DAC9521005F7F97 /* JigsawPuzzleImageView.swift */; };
+		832BDA291E31A62C005B213F /* LocalLoopNoti.m in Sources */ = {isa = PBXBuildFile; fileRef = 832BDA281E31A62C005B213F /* LocalLoopNoti.m */; };
+		833B6DCD1E00053C0074317F /* xuehua.gif in Resources */ = {isa = PBXBuildFile; fileRef = 833B6DCC1E00053C0074317F /* xuehua.gif */; };
+		8359608A1E30C70E0018BF15 /* libIFLYAdLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 835960891E30C70E0018BF15 /* libIFLYAdLib.a */; };
+		8359608C1E30C7A40018BF15 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8359608B1E30C7A40018BF15 /* SystemConfiguration.framework */; };
+		8359608E1E30C7AC0018BF15 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8359608D1E30C7AC0018BF15 /* CoreLocation.framework */; };
+		835960901E30C7B30018BF15 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8359608F1E30C7B30018BF15 /* CoreTelephony.framework */; };
+		835960921E30C7BD0018BF15 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835960911E30C7BD0018BF15 /* AdSupport.framework */; };
+		835960941E30C7C80018BF15 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 835960931E30C7C80018BF15 /* libz.1.2.5.tbd */; };
+		8365F2E11D9E06C4008E0F43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8365F2E01D9E06C4008E0F43 /* main.m */; };
+		8365F2E41D9E06C4008E0F43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8365F2E31D9E06C4008E0F43 /* AppDelegate.m */; };
+		8365F2E71D9E06C4008E0F43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8365F2E61D9E06C4008E0F43 /* ViewController.m */; };
+		8365F2EA1D9E06C4008E0F43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8365F2E81D9E06C4008E0F43 /* Main.storyboard */; };
+		8365F2EC1D9E06C4008E0F43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8365F2EB1D9E06C4008E0F43 /* Assets.xcassets */; };
+		8365F2EF1D9E06C4008E0F43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8365F2ED1D9E06C4008E0F43 /* LaunchScreen.storyboard */; };
+		8365F2FA1D9E06C4008E0F43 /* PuzzleWYJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8365F2F91D9E06C4008E0F43 /* PuzzleWYJTests.m */; };
+		8365F3051D9E06C4008E0F43 /* PuzzleWYJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8365F3041D9E06C4008E0F43 /* PuzzleWYJUITests.m */; };
+		8365F32D1D9E5329008E0F43 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8365F3281D9E5329008E0F43 /* LoginVC.m */; };
+		8365F32E1D9E5329008E0F43 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8365F3291D9E5329008E0F43 /* LoginVC.xib */; };
+		8365F32F1D9E5329008E0F43 /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8365F32B1D9E5329008E0F43 /* RootVC.m */; };
+		8365F3301D9E5329008E0F43 /* RootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8365F32C1D9E5329008E0F43 /* RootVC.xib */; };
+		8365F3331D9E5336008E0F43 /* WYJHTTPSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 8365F3321D9E5336008E0F43 /* WYJHTTPSession.m */; };
+		8365F3361D9E5346008E0F43 /* UserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 8365F3351D9E5346008E0F43 /* UserDefault.m */; };
+		8373A6911DAF8CF5000291D1 /* backArrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373A6901DAF8CF5000291D1 /* backArrow@3x.png */; };
+		8373A6931DAF9346000291D1 /* restartOpen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373A6921DAF9346000291D1 /* restartOpen@3x.png */; };
+		837544161E00D58F009AAD57 /* UIImage+GifLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 837544151E00D58F009AAD57 /* UIImage+GifLoad.m */; };
+		8381A1871E31DF5800FDC453 /* XFAdverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8381A1851E31DF5800FDC453 /* XFAdverVC.m */; };
+		8381A1881E31DF5800FDC453 /* XFAdverVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8381A1861E31DF5800FDC453 /* XFAdverVC.xib */; };
+		838284C81DB4748000342133 /* puzzleDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 838284C71DB4748000342133 /* puzzleDefault.png */; };
+		838284D01DB49A5200342133 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 838284CF1DB49A5200342133 /* launch.png */; };
+		83D923B11DAB372D00EDD51D /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D923AF1DAB372D00EDD51D /* PlayViewController.m */; };
+		83D923B21DAB372D00EDD51D /* PlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D923B01DAB372D00EDD51D /* PlayViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8365F2F61D9E06C4008E0F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8365F2D41D9E06C4008E0F43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8365F2DB1D9E06C4008E0F43;
+			remoteInfo = PuzzleWYJ;
+		};
+		8365F3011D9E06C4008E0F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8365F2D41D9E06C4008E0F43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8365F2DB1D9E06C4008E0F43;
+			remoteInfo = PuzzleWYJ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8329A0531DAC819D005F7F97 /* PuzzleWYJ-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PuzzleWYJ-Bridging-Header.h"; sourceTree = "<group>"; };
+		8329A0571DAC84CF005F7F97 /* JigsawModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JigsawModel.swift; sourceTree = "<group>"; };
+		8329A05A1DAC84CF005F7F97 /* PuzzleManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleManage.swift; sourceTree = "<group>"; };
+		8329A0611DAC896C005F7F97 /* BlurImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurImageView.swift; sourceTree = "<group>"; };
+		8329A0621DAC896C005F7F97 /* BlurImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlurImageView.xib; sourceTree = "<group>"; };
+		8329A0671DAC8DA9005F7F97 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		8329A0691DAC8DD2005F7F97 /* JigsawPuzzlePhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JigsawPuzzlePhoto.swift; sourceTree = "<group>"; };
+		8329A06B1DAC948A005F7F97 /* JigsawPuzzleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JigsawPuzzleView.swift; sourceTree = "<group>"; };
+		8329A06D1DAC9521005F7F97 /* JigsawPuzzleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JigsawPuzzleImageView.swift; sourceTree = "<group>"; };
+		832BDA271E31A62C005B213F /* LocalLoopNoti.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalLoopNoti.h; sourceTree = "<group>"; };
+		832BDA281E31A62C005B213F /* LocalLoopNoti.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalLoopNoti.m; sourceTree = "<group>"; };
+		833B6DCC1E00053C0074317F /* xuehua.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xuehua.gif; sourceTree = "<group>"; };
+		835960821E30C70E0018BF15 /* AdError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdError.h; sourceTree = "<group>"; };
+		835960831E30C70E0018BF15 /* IFLYAdBootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFLYAdBootViewController.h; sourceTree = "<group>"; };
+		835960841E30C70E0018BF15 /* IFLYAdFullScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFLYAdFullScreenController.h; sourceTree = "<group>"; };
+		835960851E30C70E0018BF15 /* IFLYAdLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFLYAdLog.h; sourceTree = "<group>"; };
+		835960861E30C70E0018BF15 /* IFLYBannerAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFLYBannerAd.h; sourceTree = "<group>"; };
+		835960871E30C70E0018BF15 /* IFLYInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFLYInterstitialAd.h; sourceTree = "<group>"; };
+		835960881E30C70E0018BF15 /* IFLYNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFLYNativeAd.h; sourceTree = "<group>"; };
+		835960891E30C70E0018BF15 /* libIFLYAdLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libIFLYAdLib.a; sourceTree = "<group>"; };
+		8359608B1E30C7A40018BF15 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8359608D1E30C7AC0018BF15 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8359608F1E30C7B30018BF15 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		835960911E30C7BD0018BF15 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		835960931E30C7C80018BF15 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		8365F2DC1D9E06C4008E0F43 /* PuzzleWYJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuzzleWYJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8365F2E01D9E06C4008E0F43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8365F2E21D9E06C4008E0F43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8365F2E31D9E06C4008E0F43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8365F2E51D9E06C4008E0F43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8365F2E61D9E06C4008E0F43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8365F2E91D9E06C4008E0F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8365F2EB1D9E06C4008E0F43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8365F2EE1D9E06C4008E0F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8365F2F01D9E06C4008E0F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8365F2F51D9E06C4008E0F43 /* PuzzleWYJTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuzzleWYJTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8365F2F91D9E06C4008E0F43 /* PuzzleWYJTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzleWYJTests.m; sourceTree = "<group>"; };
+		8365F2FB1D9E06C4008E0F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8365F3001D9E06C4008E0F43 /* PuzzleWYJUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuzzleWYJUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8365F3041D9E06C4008E0F43 /* PuzzleWYJUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzleWYJUITests.m; sourceTree = "<group>"; };
+		8365F3061D9E06C4008E0F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8365F3121D9E0CDD008E0F43 /* PuzzleWYJ-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PuzzleWYJ-Prefix.pch"; sourceTree = "<group>"; };
+		8365F3271D9E5329008E0F43 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		8365F3281D9E5329008E0F43 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		8365F3291D9E5329008E0F43 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		8365F32A1D9E5329008E0F43 /* RootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootVC.h; sourceTree = "<group>"; };
+		8365F32B1D9E5329008E0F43 /* RootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootVC.m; sourceTree = "<group>"; };
+		8365F32C1D9E5329008E0F43 /* RootVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootVC.xib; sourceTree = "<group>"; };
+		8365F3311D9E5336008E0F43 /* WYJHTTPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYJHTTPSession.h; sourceTree = "<group>"; };
+		8365F3321D9E5336008E0F43 /* WYJHTTPSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYJHTTPSession.m; sourceTree = "<group>"; };
+		8365F3341D9E5346008E0F43 /* UserDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefault.h; sourceTree = "<group>"; };
+		8365F3351D9E5346008E0F43 /* UserDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefault.m; sourceTree = "<group>"; };
+		8373A6901DAF8CF5000291D1 /* backArrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backArrow@3x.png"; sourceTree = "<group>"; };
+		8373A6921DAF9346000291D1 /* restartOpen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "restartOpen@3x.png"; sourceTree = "<group>"; };
+		837544141E00D58F009AAD57 /* UIImage+GifLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GifLoad.h"; sourceTree = "<group>"; };
+		837544151E00D58F009AAD57 /* UIImage+GifLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GifLoad.m"; sourceTree = "<group>"; };
+		8381A1841E31DF5800FDC453 /* XFAdverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFAdverVC.h; sourceTree = "<group>"; };
+		8381A1851E31DF5800FDC453 /* XFAdverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFAdverVC.m; sourceTree = "<group>"; };
+		8381A1861E31DF5800FDC453 /* XFAdverVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XFAdverVC.xib; sourceTree = "<group>"; };
+		838284C71DB4748000342133 /* puzzleDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puzzleDefault.png; sourceTree = "<group>"; };
+		838284CF1DB49A5200342133 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		83D923AE1DAB372D00EDD51D /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		83D923AF1DAB372D00EDD51D /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		83D923B01DAB372D00EDD51D /* PlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayViewController.xib; sourceTree = "<group>"; };
+		989FE97EA2B8EC07C06A4C39 /* libPods-PuzzleWYJ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PuzzleWYJ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB57BA896CA44DEDB2EC79AE /* Pods-PuzzleWYJ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuzzleWYJ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PuzzleWYJ/Pods-PuzzleWYJ.debug.xcconfig"; sourceTree = "<group>"; };
+		FB8EFC608602876FC6B58D7F /* Pods-PuzzleWYJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuzzleWYJ.release.xcconfig"; path = "Pods/Target Support Files/Pods-PuzzleWYJ/Pods-PuzzleWYJ.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8365F2D91D9E06C4008E0F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835960941E30C7C80018BF15 /* libz.1.2.5.tbd in Frameworks */,
+				835960921E30C7BD0018BF15 /* AdSupport.framework in Frameworks */,
+				835960901E30C7B30018BF15 /* CoreTelephony.framework in Frameworks */,
+				8359608E1E30C7AC0018BF15 /* CoreLocation.framework in Frameworks */,
+				8359608C1E30C7A40018BF15 /* SystemConfiguration.framework in Frameworks */,
+				8359608A1E30C70E0018BF15 /* libIFLYAdLib.a in Frameworks */,
+				12CDDDE2623EE11E83AFABB0 /* libPods-PuzzleWYJ.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8365F2F21D9E06C4008E0F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8365F2FD1D9E06C4008E0F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46FBF330F5044F5D0DE2E0CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				835960931E30C7C80018BF15 /* libz.1.2.5.tbd */,
+				835960911E30C7BD0018BF15 /* AdSupport.framework */,
+				8359608F1E30C7B30018BF15 /* CoreTelephony.framework */,
+				8359608D1E30C7AC0018BF15 /* CoreLocation.framework */,
+				8359608B1E30C7A40018BF15 /* SystemConfiguration.framework */,
+				989FE97EA2B8EC07C06A4C39 /* libPods-PuzzleWYJ.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8329A0561DAC8492005F7F97 /* JigsawPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				8329A0611DAC896C005F7F97 /* BlurImageView.swift */,
+				8329A0621DAC896C005F7F97 /* BlurImageView.xib */,
+				8329A06B1DAC948A005F7F97 /* JigsawPuzzleView.swift */,
+				8329A06D1DAC9521005F7F97 /* JigsawPuzzleImageView.swift */,
+				8329A0571DAC84CF005F7F97 /* JigsawModel.swift */,
+				8329A05A1DAC84CF005F7F97 /* PuzzleManage.swift */,
+				8329A0671DAC8DA9005F7F97 /* Photo.swift */,
+				8329A0691DAC8DD2005F7F97 /* JigsawPuzzlePhoto.swift */,
+			);
+			path = JigsawPuzzle;
+			sourceTree = "<group>";
+		};
+		832BDA261E31A434005B213F /* LocalNoti */ = {
+			isa = PBXGroup;
+			children = (
+				832BDA271E31A62C005B213F /* LocalLoopNoti.h */,
+				832BDA281E31A62C005B213F /* LocalLoopNoti.m */,
+			);
+			path = LocalNoti;
+			sourceTree = "<group>";
+		};
+		835960811E30C70E0018BF15 /* XFAdvertisingSDK */ = {
+			isa = PBXGroup;
+			children = (
+				835960821E30C70E0018BF15 /* AdError.h */,
+				835960831E30C70E0018BF15 /* IFLYAdBootViewController.h */,
+				835960841E30C70E0018BF15 /* IFLYAdFullScreenController.h */,
+				835960851E30C70E0018BF15 /* IFLYAdLog.h */,
+				835960861E30C70E0018BF15 /* IFLYBannerAd.h */,
+				835960871E30C70E0018BF15 /* IFLYInterstitialAd.h */,
+				835960881E30C70E0018BF15 /* IFLYNativeAd.h */,
+				835960891E30C70E0018BF15 /* libIFLYAdLib.a */,
+			);
+			path = XFAdvertisingSDK;
+			sourceTree = "<group>";
+		};
+		8365F2D31D9E06C4008E0F43 = {
+			isa = PBXGroup;
+			children = (
+				8365F2DE1D9E06C4008E0F43 /* PuzzleWYJ */,
+				8365F2F81D9E06C4008E0F43 /* PuzzleWYJTests */,
+				8365F3031D9E06C4008E0F43 /* PuzzleWYJUITests */,
+				8365F2DD1D9E06C4008E0F43 /* Products */,
+				A79F892674291A59A8EC5666 /* Pods */,
+				46FBF330F5044F5D0DE2E0CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8365F2DD1D9E06C4008E0F43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8365F2DC1D9E06C4008E0F43 /* PuzzleWYJ.app */,
+				8365F2F51D9E06C4008E0F43 /* PuzzleWYJTests.xctest */,
+				8365F3001D9E06C4008E0F43 /* PuzzleWYJUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8365F2DE1D9E06C4008E0F43 /* PuzzleWYJ */ = {
+			isa = PBXGroup;
+			children = (
+				835960811E30C70E0018BF15 /* XFAdvertisingSDK */,
+				8365F2E21D9E06C4008E0F43 /* AppDelegate.h */,
+				8365F2E31D9E06C4008E0F43 /* AppDelegate.m */,
+				8365F2E51D9E06C4008E0F43 /* ViewController.h */,
+				8365F2E61D9E06C4008E0F43 /* ViewController.m */,
+				837544131E00D52D009AAD57 /* Tool */,
+				8329A0561DAC8492005F7F97 /* JigsawPuzzle */,
+				8365F3241D9E528B008E0F43 /* Unit */,
+				8365F3231D9E5266008E0F43 /* Network */,
+				8365F3251D9E52AC008E0F43 /* Home */,
+				8365F2E81D9E06C4008E0F43 /* Main.storyboard */,
+				8365F2EB1D9E06C4008E0F43 /* Assets.xcassets */,
+				8365F2ED1D9E06C4008E0F43 /* LaunchScreen.storyboard */,
+				8365F2F01D9E06C4008E0F43 /* Info.plist */,
+				8373A68D1DAF55FD000291D1 /* Resource */,
+				8365F2DF1D9E06C4008E0F43 /* Supporting Files */,
+				8329A0531DAC819D005F7F97 /* PuzzleWYJ-Bridging-Header.h */,
+			);
+			path = PuzzleWYJ;
+			sourceTree = "<group>";
+		};
+		8365F2DF1D9E06C4008E0F43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8365F2E01D9E06C4008E0F43 /* main.m */,
+				8365F3121D9E0CDD008E0F43 /* PuzzleWYJ-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8365F2F81D9E06C4008E0F43 /* PuzzleWYJTests */ = {
+			isa = PBXGroup;
+			children = (
+				8365F2F91D9E06C4008E0F43 /* PuzzleWYJTests.m */,
+				8365F2FB1D9E06C4008E0F43 /* Info.plist */,
+			);
+			path = PuzzleWYJTests;
+			sourceTree = "<group>";
+		};
+		8365F3031D9E06C4008E0F43 /* PuzzleWYJUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8365F3041D9E06C4008E0F43 /* PuzzleWYJUITests.m */,
+				8365F3061D9E06C4008E0F43 /* Info.plist */,
+			);
+			path = PuzzleWYJUITests;
+			sourceTree = "<group>";
+		};
+		8365F3231D9E5266008E0F43 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8365F3311D9E5336008E0F43 /* WYJHTTPSession.h */,
+				8365F3321D9E5336008E0F43 /* WYJHTTPSession.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8365F3241D9E528B008E0F43 /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+				8365F3341D9E5346008E0F43 /* UserDefault.h */,
+				8365F3351D9E5346008E0F43 /* UserDefault.m */,
+				832BDA261E31A434005B213F /* LocalNoti */,
+			);
+			path = Unit;
+			sourceTree = "<group>";
+		};
+		8365F3251D9E52AC008E0F43 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8365F3261D9E5329008E0F43 /* Login */,
+				8365F32A1D9E5329008E0F43 /* RootVC.h */,
+				8365F32B1D9E5329008E0F43 /* RootVC.m */,
+				8365F32C1D9E5329008E0F43 /* RootVC.xib */,
+				83D923AE1DAB372D00EDD51D /* PlayViewController.h */,
+				83D923AF1DAB372D00EDD51D /* PlayViewController.m */,
+				83D923B01DAB372D00EDD51D /* PlayViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8365F3261D9E5329008E0F43 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8365F3271D9E5329008E0F43 /* LoginVC.h */,
+				8365F3281D9E5329008E0F43 /* LoginVC.m */,
+				8365F3291D9E5329008E0F43 /* LoginVC.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8373A68D1DAF55FD000291D1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				838284C71DB4748000342133 /* puzzleDefault.png */,
+				8373A6901DAF8CF5000291D1 /* backArrow@3x.png */,
+				8373A6921DAF9346000291D1 /* restartOpen@3x.png */,
+				838284CF1DB49A5200342133 /* launch.png */,
+				833B6DCC1E00053C0074317F /* xuehua.gif */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		837544131E00D52D009AAD57 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				837544141E00D58F009AAD57 /* UIImage+GifLoad.h */,
+				837544151E00D58F009AAD57 /* UIImage+GifLoad.m */,
+				8381A1841E31DF5800FDC453 /* XFAdverVC.h */,
+				8381A1851E31DF5800FDC453 /* XFAdverVC.m */,
+				8381A1861E31DF5800FDC453 /* XFAdverVC.xib */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		A79F892674291A59A8EC5666 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB57BA896CA44DEDB2EC79AE /* Pods-PuzzleWYJ.debug.xcconfig */,
+				FB8EFC608602876FC6B58D7F /* Pods-PuzzleWYJ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8365F2DB1D9E06C4008E0F43 /* PuzzleWYJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8365F3091D9E06C4008E0F43 /* Build configuration list for PBXNativeTarget "PuzzleWYJ" */;
+			buildPhases = (
+				95B71F76AC67612ED265AD14 /* [CP] Check Pods Manifest.lock */,
+				8365F2D81D9E06C4008E0F43 /* Sources */,
+				8365F2D91D9E06C4008E0F43 /* Frameworks */,
+				8365F2DA1D9E06C4008E0F43 /* Resources */,
+				9D99EA869A613AFC0E897F2D /* [CP] Embed Pods Frameworks */,
+				34F38E214123C9ABE8B5A0FB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PuzzleWYJ;
+			productName = PuzzleWYJ;
+			productReference = 8365F2DC1D9E06C4008E0F43 /* PuzzleWYJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8365F2F41D9E06C4008E0F43 /* PuzzleWYJTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8365F30C1D9E06C4008E0F43 /* Build configuration list for PBXNativeTarget "PuzzleWYJTests" */;
+			buildPhases = (
+				8365F2F11D9E06C4008E0F43 /* Sources */,
+				8365F2F21D9E06C4008E0F43 /* Frameworks */,
+				8365F2F31D9E06C4008E0F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8365F2F71D9E06C4008E0F43 /* PBXTargetDependency */,
+			);
+			name = PuzzleWYJTests;
+			productName = PuzzleWYJTests;
+			productReference = 8365F2F51D9E06C4008E0F43 /* PuzzleWYJTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8365F2FF1D9E06C4008E0F43 /* PuzzleWYJUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8365F30F1D9E06C4008E0F43 /* Build configuration list for PBXNativeTarget "PuzzleWYJUITests" */;
+			buildPhases = (
+				8365F2FC1D9E06C4008E0F43 /* Sources */,
+				8365F2FD1D9E06C4008E0F43 /* Frameworks */,
+				8365F2FE1D9E06C4008E0F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8365F3021D9E06C4008E0F43 /* PBXTargetDependency */,
+			);
+			name = PuzzleWYJUITests;
+			productName = PuzzleWYJUITests;
+			productReference = 8365F3001D9E06C4008E0F43 /* PuzzleWYJUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8365F2D41D9E06C4008E0F43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZSXJ;
+				TargetAttributes = {
+					8365F2DB1D9E06C4008E0F43 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 27659RPABJ;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					8365F2F41D9E06C4008E0F43 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8365F2DB1D9E06C4008E0F43;
+					};
+					8365F2FF1D9E06C4008E0F43 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8365F2DB1D9E06C4008E0F43;
+					};
+				};
+			};
+			buildConfigurationList = 8365F2D71D9E06C4008E0F43 /* Build configuration list for PBXProject "PuzzleWYJ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8365F2D31D9E06C4008E0F43;
+			productRefGroup = 8365F2DD1D9E06C4008E0F43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8365F2DB1D9E06C4008E0F43 /* PuzzleWYJ */,
+				8365F2F41D9E06C4008E0F43 /* PuzzleWYJTests */,
+				8365F2FF1D9E06C4008E0F43 /* PuzzleWYJUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8365F2DA1D9E06C4008E0F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838284D01DB49A5200342133 /* launch.png in Resources */,
+				8365F2EF1D9E06C4008E0F43 /* LaunchScreen.storyboard in Resources */,
+				8365F2EC1D9E06C4008E0F43 /* Assets.xcassets in Resources */,
+				833B6DCD1E00053C0074317F /* xuehua.gif in Resources */,
+				83D923B21DAB372D00EDD51D /* PlayViewController.xib in Resources */,
+				8373A6931DAF9346000291D1 /* restartOpen@3x.png in Resources */,
+				8381A1881E31DF5800FDC453 /* XFAdverVC.xib in Resources */,
+				8373A6911DAF8CF5000291D1 /* backArrow@3x.png in Resources */,
+				8365F32E1D9E5329008E0F43 /* LoginVC.xib in Resources */,
+				838284C81DB4748000342133 /* puzzleDefault.png in Resources */,
+				8329A0641DAC896C005F7F97 /* BlurImageView.xib in Resources */,
+				8365F2EA1D9E06C4008E0F43 /* Main.storyboard in Resources */,
+				8365F3301D9E5329008E0F43 /* RootVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8365F2F31D9E06C4008E0F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8365F2FE1D9E06C4008E0F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34F38E214123C9ABE8B5A0FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PuzzleWYJ/Pods-PuzzleWYJ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95B71F76AC67612ED265AD14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D99EA869A613AFC0E897F2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PuzzleWYJ/Pods-PuzzleWYJ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8365F2D81D9E06C4008E0F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8329A06C1DAC948A005F7F97 /* JigsawPuzzleView.swift in Sources */,
+				8365F2E71D9E06C4008E0F43 /* ViewController.m in Sources */,
+				8381A1871E31DF5800FDC453 /* XFAdverVC.m in Sources */,
+				8365F2E41D9E06C4008E0F43 /* AppDelegate.m in Sources */,
+				8329A06E1DAC9521005F7F97 /* JigsawPuzzleImageView.swift in Sources */,
+				8329A06A1DAC8DD2005F7F97 /* JigsawPuzzlePhoto.swift in Sources */,
+				8329A0631DAC896C005F7F97 /* BlurImageView.swift in Sources */,
+				8365F32D1D9E5329008E0F43 /* LoginVC.m in Sources */,
+				832BDA291E31A62C005B213F /* LocalLoopNoti.m in Sources */,
+				8365F3331D9E5336008E0F43 /* WYJHTTPSession.m in Sources */,
+				8329A0681DAC8DA9005F7F97 /* Photo.swift in Sources */,
+				83D923B11DAB372D00EDD51D /* PlayViewController.m in Sources */,
+				8365F3361D9E5346008E0F43 /* UserDefault.m in Sources */,
+				8365F32F1D9E5329008E0F43 /* RootVC.m in Sources */,
+				8329A05C1DAC84CF005F7F97 /* JigsawModel.swift in Sources */,
+				8329A05F1DAC84CF005F7F97 /* PuzzleManage.swift in Sources */,
+				837544161E00D58F009AAD57 /* UIImage+GifLoad.m in Sources */,
+				8365F2E11D9E06C4008E0F43 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8365F2F11D9E06C4008E0F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8365F2FA1D9E06C4008E0F43 /* PuzzleWYJTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8365F2FC1D9E06C4008E0F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8365F3051D9E06C4008E0F43 /* PuzzleWYJUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8365F2F71D9E06C4008E0F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8365F2DB1D9E06C4008E0F43 /* PuzzleWYJ */;
+			targetProxy = 8365F2F61D9E06C4008E0F43 /* PBXContainerItemProxy */;
+		};
+		8365F3021D9E06C4008E0F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8365F2DB1D9E06C4008E0F43 /* PuzzleWYJ */;
+			targetProxy = 8365F3011D9E06C4008E0F43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8365F2E81D9E06C4008E0F43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8365F2E91D9E06C4008E0F43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8365F2ED1D9E06C4008E0F43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8365F2EE1D9E06C4008E0F43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8365F3071D9E06C4008E0F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8365F3081D9E06C4008E0F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8365F30A1D9E06C4008E0F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB57BA896CA44DEDB2EC79AE /* Pods-PuzzleWYJ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 27659RPABJ;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PuzzleWYJ/PuzzleWYJ-Prefix.pch";
+				INFOPLIST_FILE = PuzzleWYJ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PuzzleWYJ/XFAdvertisingSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsxj.www.PuzzleWYJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PuzzleWYJ/PuzzleWYJ-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8365F30B1D9E06C4008E0F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8EFC608602876FC6B58D7F /* Pods-PuzzleWYJ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 27659RPABJ;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PuzzleWYJ/PuzzleWYJ-Prefix.pch";
+				INFOPLIST_FILE = PuzzleWYJ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PuzzleWYJ/XFAdvertisingSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsxj.www.PuzzleWYJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PuzzleWYJ/PuzzleWYJ-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8365F30D1D9E06C4008E0F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PuzzleWYJTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsxj.www.PuzzleWYJTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuzzleWYJ.app/PuzzleWYJ";
+			};
+			name = Debug;
+		};
+		8365F30E1D9E06C4008E0F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PuzzleWYJTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsxj.www.PuzzleWYJTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuzzleWYJ.app/PuzzleWYJ";
+			};
+			name = Release;
+		};
+		8365F3101D9E06C4008E0F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PuzzleWYJUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsxj.www.PuzzleWYJUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PuzzleWYJ;
+			};
+			name = Debug;
+		};
+		8365F3111D9E06C4008E0F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PuzzleWYJUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsxj.www.PuzzleWYJUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PuzzleWYJ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8365F2D71D9E06C4008E0F43 /* Build configuration list for PBXProject "PuzzleWYJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8365F3071D9E06C4008E0F43 /* Debug */,
+				8365F3081D9E06C4008E0F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8365F3091D9E06C4008E0F43 /* Build configuration list for PBXNativeTarget "PuzzleWYJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8365F30A1D9E06C4008E0F43 /* Debug */,
+				8365F30B1D9E06C4008E0F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8365F30C1D9E06C4008E0F43 /* Build configuration list for PBXNativeTarget "PuzzleWYJTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8365F30D1D9E06C4008E0F43 /* Debug */,
+				8365F30E1D9E06C4008E0F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8365F30F1D9E06C4008E0F43 /* Build configuration list for PBXNativeTarget "PuzzleWYJUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8365F3101D9E06C4008E0F43 /* Debug */,
+				8365F3111D9E06C4008E0F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8365F2D41D9E06C4008E0F43 /* Project object */;
+}

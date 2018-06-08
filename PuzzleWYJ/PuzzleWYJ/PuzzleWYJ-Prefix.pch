@@ -1,0 +1,42 @@
+//
+//  PuzzleWYJ-Prefix.pch
+//  PuzzleWYJ
+//
+//  Created by ZSXJ on 16/9/30.
+//  Copyright © 2016年 ZSXJ. All rights reserved.
+//
+
+#ifndef PuzzleWYJ_Prefix_pch
+#define PuzzleWYJ_Prefix_pch
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PuzzleWYJ_Prefix_pch */
+
+
+#define APPKey @"I6WQdXSfis8S4e9qBxdAUeOh"
+#define APPId  @"sNkArza71TBJl1TrRjvppUVn"
+
+#define LoginSuccessNotificationKey @"LoginSuccessNotificationKey"
+#define LoginOutNotificationKey @"LoginOutNotificationKey"
+
+//本地循环提醒通知key
+#define LocalLoopNotificationKey @"LocalLoopNotificationKey"
+
+//#import <AFNetworking.h>
+#import <AFNetworking/AFNetworking.h>
+#import <UIImageView+WebCache.h>
+#import <AVOSCloud/AVOSCloud.h>
+#import <MBProgressHUD.h>
+
+#import "WYJHTTPSession.h"
+#import "UserDefault.h"
+#import "PuzzleWYJ-swift.h"
+#import "UIImage+GifLoad.h"
+#import "LocalLoopNoti.h"
+
+//#define RootViewBackColor [UIColor colorWithRed:236/255.0 green:255/255.0 blue:228/255.0 alpha:1]
+#define RootViewBackColor [UIColor clearColor]
+
+@class WYJHTTPSession;
+@class UserDefault;
